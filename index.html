@@ -1,64 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
+	<meta charset="utf-8">
+
+	<title>Document</title>
+
+	
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="color">
-            <h1 class="text-h1">Design and Development</h1>
-        </div>
-        <div class="blocks">
-            <div class="block num1">
-                <p class="num">1</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-            </div>
+	<!-- <div style="width: 100%; height: 60px;"> -->
+		<header class="profile-header">
+<ul>
+		<li><a href = "#">Our team</a></li>
+		<li><a href = "#">about us</a></li>
+		<li><a href = "#">Our blog</a></li>
+</ul>
+</header>
 
-            <div class="block">
-                <p class="num">2</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+	<header class="main-header grid" style="background-image: url(img/ocr.jpg);">
+		
+		<div class="header-content grid">
+			<h1>Create your bussines</h1>
+			<div class="header-buttons">
+				<a href="#" class="button">Buy theme now</a>
+				<a href="#" class="button button-gray">Discover more</a>
+			</div>
+		</div>
 
-            </div>
-            <div class="block num2">
-                <p class="num">3</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+	</header>
 
-            </div>
-            <div class="block num1">
-                <p class="num">4</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+	<section class="portfolio-section grid">
+		<div class="portfolio-item grid"><span>Дэвид Паттерсон</span></div>
+		<div class="portfolio-item grid"><span>Джон Кармак</span></div>
+		<div class="portfolio-item grid"><span>Дональд Эрвин Крут</span></div>
+		<div class="portfolio-item grid"><span>Гидо ван Россум</span></div>
+		<div class="portfolio-item grid"><span>Джеймс Артур Гослинг</span></div>
+		<div class="portfolio-item grid"><span>Никлаус Вирт</span></div>
+		<div class="portfolio-item grid"><span>Алан Кертис Кей</span></div>
+		<div class="portfolio-item grid"><span>Джон Маккарти</span></div>
+		<div class="portfolio-item grid"><span>Томас Евгений Курц</span></div>
+		<div class="buttoncase text-center">
+			<a href="#" class="button">View Portfolio</a>
+		</div>
+	</section>
 
-            </div>
-            <div class="block">
-                <p class="num">5</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+	<section class="section-ready landing-section">
+		<div class="container grid">
+			
+			<div class="ready-left">
+				
+				<h2>About us</h2>
 
-            </div>
-            <div class="block num2">
-                <p class="num">6</p>
-                <p class="text-block"> Sample text. Click to select the text box. Click again or double click to start
-                    editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+				<p>No one can do what you do better than you, but… what exactly do you do? When creating a company description, you would, oftentimes, have problems summarizing your organization in a single sentence or find yourself at a loss for words. </p>
+				<p>Knowing how to write a description of a company in a business plan will help you interact with creditors, investors, employees and potential customers.</p>
 
-            </div>
-        </div>
+			</div>
 
-    </div>
+			<div class="ready-right">
+				
+				<img src="img/example.jpg" alt="Example" class="img-responsive">
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="formsection">
+		<div class="container">
+			
+			<form class="grid">
+				<div><input type="text" name="name" placeholder="You Surname" required></div>
+				<div><input type="text" name="name" placeholder="You Name"></div>
+				<div><input type="text" name="name" placeholder="You Age"></div>
+				<div><button class="button">Send form</button></div>
+			</form>
+
+		</div>
+	</section>
+
+	<section class="landing-section section-blog">
+		<div class="container">
+			
+			<h2>What is about our blog?</h2>
+
+			<div class="blog-home grid">
+				
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/1.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We Are Champions At Last Month</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/2.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>Our Mission</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/3.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>Services</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/4.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>Our Story</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/5.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>Located</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/6.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>Contact</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem perferendis provident dolor nesciunt minima consectetur ipsum, architecto...</p>
+					</span>
+				</a>
+
+				<div class="buttoncase text-center">
+					<a href="#" class="button">View Blog</a>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="main-footer">
+		<div class="container">
+			<div class="footer-logo">
+				We Are Real <span>Creators</span>
+			</div>
+			</div>
+	</footer>
+	
+	<link rel="stylesheet" href="style.css">
+	
+
 </body>
-
 </html>
